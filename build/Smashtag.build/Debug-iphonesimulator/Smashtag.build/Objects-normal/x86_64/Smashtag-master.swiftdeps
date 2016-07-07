@@ -1,0 +1,17 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "1721a9bc0fd83eb119e2e526e8a17351"
+build_time: [518517556, 389275000]
+inputs:
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/CoreDataTableViewController.swift": [518515688, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/AppDelegate.swift": [518440752, 0]
+  "/Users/darius/Documents/xcode/Smashtag/TwitterRequest.swift": [518186521, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/TweetersTableViewController.swift": [518517556, 0]
+  "/Users/darius/Documents/xcode/Smashtag/User.swift": [518186555, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/TweetTableViewController.swift": [518515660, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/TweetInfo+CoreDataProperties.swift": [518441899, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/TwitterUser.swift": [518513887, 0]
+  "/Users/darius/Documents/xcode/Smashtag/MediaItem.swift": [518186415, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/TwitterUser+CoreDataProperties.swift": [518441899, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/TweetInfo.swift": [518514452, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Tweet.swift": [518186514, 0]
+  "/Users/darius/Documents/xcode/Smashtag/Smashtag/TweetTableViewCell.swift": [518198038, 0]

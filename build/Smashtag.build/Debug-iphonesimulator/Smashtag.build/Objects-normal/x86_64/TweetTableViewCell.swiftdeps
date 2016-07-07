@@ -1,0 +1,742 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TweetTableViewCell"
+provides-nominal:
+- "C8Smashtag18TweetTableViewCell"
+provides-member:
+- ["C8Smashtag18TweetTableViewCell", ""]
+provides-dynamic-lookup:
+- "tweetCreatedLabel"
+- "tweetScreenNameLabel"
+- "tweetProfileImageView"
+- "tweetTextLabel"
+depends-top-level:
+- !private "NSDateFormatter"
+- !private "+="
+- "TweetTableViewCell"
+- !private "!="
+- !private "*"
+- "UITableViewCell"
+- "UIImageView"
+- !private "NSData"
+- !private "NSDate"
+- !private "StringLiteralType"
+- !private "UIImage"
+- !private "NSDateFormatterStyle"
+- "UILabel"
+- !private ">"
+- "Tweet"
+depends-member:
+- !private ["Ps9AnyObject", "NSData"]
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "NSDateFormatter"]
+- !private ["Ps9AnyObject", "NSDateFormatterStyle"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "attributedText"]
+- !private ["Ps9AnyObject", "created"]
+- !private ["Ps9AnyObject", "dateStyle"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "media"]
+- !private ["Ps9AnyObject", "stringFromDate"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "timeIntervalSinceDate"]
+- !private ["Ps9AnyObject", "timeStyle"]
+- ["Ps9AnyObject", "tweet"]
+- ["Ps9AnyObject", "tweetCreatedLabel"]
+- ["Ps9AnyObject", "tweetProfileImageView"]
+- ["Ps9AnyObject", "tweetScreenNameLabel"]
+- ["Ps9AnyObject", "tweetTextLabel"]
+- ["Ps9AnyObject", "updateUI"]
+- !private ["Ps9AnyObject", "user"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSData"]
+- !private ["Ps11CVarArgType", "NSDate"]
+- !private ["Ps11CVarArgType", "NSDateFormatter"]
+- !private ["Ps11CVarArgType", "NSDateFormatterStyle"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "attributedText"]
+- !private ["Ps11CVarArgType", "dateStyle"]
+- !private ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "stringFromDate"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "timeIntervalSinceDate"]
+- !private ["Ps11CVarArgType", "timeStyle"]
+- ["Ps11CVarArgType", "tweet"]
+- ["Ps11CVarArgType", "tweetCreatedLabel"]
+- ["Ps11CVarArgType", "tweetProfileImageView"]
+- ["Ps11CVarArgType", "tweetScreenNameLabel"]
+- ["Ps11CVarArgType", "tweetTextLabel"]
+- ["Ps11CVarArgType", "updateUI"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSData"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDateFormatterStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "attributedText"]
+- !private ["Ps28CustomDebugStringConvertible", "dateStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "stringFromDate"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "timeStyle"]
+- ["Ps28CustomDebugStringConvertible", "tweet"]
+- ["Ps28CustomDebugStringConvertible", "tweetCreatedLabel"]
+- ["Ps28CustomDebugStringConvertible", "tweetProfileImageView"]
+- ["Ps28CustomDebugStringConvertible", "tweetScreenNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "tweetTextLabel"]
+- ["Ps28CustomDebugStringConvertible", "updateUI"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSData"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "NSDateFormatter"]
+- !private ["Ps23CustomStringConvertible", "NSDateFormatterStyle"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "attributedText"]
+- !private ["Ps23CustomStringConvertible", "created"]
+- !private ["Ps23CustomStringConvertible", "dateStyle"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "media"]
+- !private ["Ps23CustomStringConvertible", "profileImageURL"]
+- !private ["Ps23CustomStringConvertible", "stringFromDate"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceDate"]
+- !private ["Ps23CustomStringConvertible", "timeStyle"]
+- ["Ps23CustomStringConvertible", "tweet"]
+- ["Ps23CustomStringConvertible", "tweetCreatedLabel"]
+- ["Ps23CustomStringConvertible", "tweetProfileImageView"]
+- ["Ps23CustomStringConvertible", "tweetScreenNameLabel"]
+- ["Ps23CustomStringConvertible", "tweetTextLabel"]
+- ["Ps23CustomStringConvertible", "updateUI"]
+- !private ["Ps23CustomStringConvertible", "user"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSData"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "NSDateFormatter"]
+- !private ["Ps9Equatable", "NSDateFormatterStyle"]
+- !private ["Ps9Equatable", "ShortStyle"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "attributedText"]
+- !private ["Ps9Equatable", "dateStyle"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "stringFromDate"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "timeIntervalSinceDate"]
+- !private ["Ps9Equatable", "timeStyle"]
+- ["Ps9Equatable", "tweet"]
+- ["Ps9Equatable", "tweetCreatedLabel"]
+- ["Ps9Equatable", "tweetProfileImageView"]
+- ["Ps9Equatable", "tweetScreenNameLabel"]
+- ["Ps9Equatable", "tweetTextLabel"]
+- ["Ps9Equatable", "updateUI"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Vs7Float80", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSData"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "NSDateFormatter"]
+- !private ["Ps8Hashable", "NSDateFormatterStyle"]
+- !private ["Ps8Hashable", "ShortStyle"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "attributedText"]
+- !private ["Ps8Hashable", "dateStyle"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "stringFromDate"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "timeIntervalSinceDate"]
+- !private ["Ps8Hashable", "timeStyle"]
+- ["Ps8Hashable", "tweet"]
+- ["Ps8Hashable", "tweetCreatedLabel"]
+- ["Ps8Hashable", "tweetProfileImageView"]
+- ["Ps8Hashable", "tweetScreenNameLabel"]
+- ["Ps8Hashable", "tweetTextLabel"]
+- ["Ps8Hashable", "updateUI"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "NSData"]
+- !private ["PSo8NSCoding", "NSDate"]
+- !private ["PSo8NSCoding", "NSDateFormatter"]
+- !private ["PSo8NSCoding", "NSDateFormatterStyle"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "attributedText"]
+- !private ["PSo8NSCoding", "dateStyle"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "timeIntervalSinceDate"]
+- !private ["PSo8NSCoding", "timeStyle"]
+- ["PSo8NSCoding", "tweet"]
+- ["PSo8NSCoding", "tweetCreatedLabel"]
+- ["PSo8NSCoding", "tweetProfileImageView"]
+- ["PSo8NSCoding", "tweetScreenNameLabel"]
+- ["PSo8NSCoding", "tweetTextLabel"]
+- ["PSo8NSCoding", "updateUI"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "dateStyle"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- !private ["PSo9NSCopying", "timeIntervalSinceDate"]
+- !private ["PSo9NSCopying", "timeStyle"]
+- !private ["CSo6NSData", "init"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo6NSDate", "timeIntervalSinceDate"]
+- !private ["CSo15NSDateFormatter", "dateStyle"]
+- !private ["CSo15NSDateFormatter", "init"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- !private ["CSo15NSDateFormatter", "timeStyle"]
+- !private ["OSC20NSDateFormatterStyle", "ShortStyle"]
+- !private ["CSo11NSFormatter", "dateStyle"]
+- !private ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- !private ["CSo11NSFormatter", "timeStyle"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "NSDateFormatter"]
+- !private ["CSo8NSObject", "NSDateFormatterStyle"]
+- ["CSo8NSObject", "Tweet"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "attributedText"]
+- !private ["CSo8NSObject", "dateStyle"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "timeIntervalSinceDate"]
+- !private ["CSo8NSObject", "timeStyle"]
+- ["CSo8NSObject", "tweet"]
+- ["CSo8NSObject", "tweetCreatedLabel"]
+- ["CSo8NSObject", "tweetProfileImageView"]
+- ["CSo8NSObject", "tweetScreenNameLabel"]
+- ["CSo8NSObject", "tweetTextLabel"]
+- ["CSo8NSObject", "updateUI"]
+- !private ["PSo16NSObjectProtocol", "NSData"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "NSDateFormatter"]
+- !private ["PSo16NSObjectProtocol", "NSDateFormatterStyle"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "attributedText"]
+- !private ["PSo16NSObjectProtocol", "dateStyle"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSinceDate"]
+- !private ["PSo16NSObjectProtocol", "timeStyle"]
+- ["PSo16NSObjectProtocol", "tweet"]
+- ["PSo16NSObjectProtocol", "tweetCreatedLabel"]
+- ["PSo16NSObjectProtocol", "tweetProfileImageView"]
+- ["PSo16NSObjectProtocol", "tweetScreenNameLabel"]
+- ["PSo16NSObjectProtocol", "tweetTextLabel"]
+- ["PSo16NSObjectProtocol", "updateUI"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSinceDate"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps16RawRepresentable", "ShortStyle"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["C8Smashtag5Tweet", "created"]
+- !private ["C8Smashtag5Tweet", "media"]
+- !private ["C8Smashtag5Tweet", "text"]
+- !private ["C8Smashtag5Tweet", "user"]
+- !private ["C8Smashtag18TweetTableViewCell", "NSData"]
+- !private ["C8Smashtag18TweetTableViewCell", "NSDate"]
+- !private ["C8Smashtag18TweetTableViewCell", "NSDateFormatter"]
+- !private ["C8Smashtag18TweetTableViewCell", "NSDateFormatterStyle"]
+- ["C8Smashtag18TweetTableViewCell", "Tweet"]
+- !private ["C8Smashtag18TweetTableViewCell", "UIImage"]
+- ["C8Smashtag18TweetTableViewCell", "UIImageView"]
+- ["C8Smashtag18TweetTableViewCell", "UILabel"]
+- ["C8Smashtag18TweetTableViewCell", "deinit"]
+- ["C8Smashtag18TweetTableViewCell", "init"]
+- ["C8Smashtag18TweetTableViewCell", "tweet"]
+- ["C8Smashtag18TweetTableViewCell", "tweetCreatedLabel"]
+- ["C8Smashtag18TweetTableViewCell", "tweetProfileImageView"]
+- ["C8Smashtag18TweetTableViewCell", "tweetScreenNameLabel"]
+- ["C8Smashtag18TweetTableViewCell", "tweetTextLabel"]
+- !private ["C8Smashtag18TweetTableViewCell", "updateUI"]
+- !private ["PSo29UIAccessibilityIdentification", "NSData"]
+- !private ["PSo29UIAccessibilityIdentification", "NSDate"]
+- !private ["PSo29UIAccessibilityIdentification", "NSDateFormatter"]
+- !private ["PSo29UIAccessibilityIdentification", "NSDateFormatterStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- !private ["PSo29UIAccessibilityIdentification", "attributedText"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "tweet"]
+- ["PSo29UIAccessibilityIdentification", "tweetCreatedLabel"]
+- ["PSo29UIAccessibilityIdentification", "tweetProfileImageView"]
+- ["PSo29UIAccessibilityIdentification", "tweetScreenNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "tweetTextLabel"]
+- ["PSo29UIAccessibilityIdentification", "updateUI"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "NSData"]
+- !private ["PSo12UIAppearance", "NSDate"]
+- !private ["PSo12UIAppearance", "NSDateFormatter"]
+- !private ["PSo12UIAppearance", "NSDateFormatterStyle"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- !private ["PSo12UIAppearance", "attributedText"]
+- !private ["PSo12UIAppearance", "image"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "tweet"]
+- ["PSo12UIAppearance", "tweetCreatedLabel"]
+- ["PSo12UIAppearance", "tweetProfileImageView"]
+- ["PSo12UIAppearance", "tweetScreenNameLabel"]
+- ["PSo12UIAppearance", "tweetTextLabel"]
+- ["PSo12UIAppearance", "updateUI"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "NSData"]
+- !private ["PSo21UIAppearanceContainer", "NSDate"]
+- !private ["PSo21UIAppearanceContainer", "NSDateFormatter"]
+- !private ["PSo21UIAppearanceContainer", "NSDateFormatterStyle"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "attributedText"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "tweet"]
+- ["PSo21UIAppearanceContainer", "tweetCreatedLabel"]
+- ["PSo21UIAppearanceContainer", "tweetProfileImageView"]
+- ["PSo21UIAppearanceContainer", "tweetScreenNameLabel"]
+- ["PSo21UIAppearanceContainer", "tweetTextLabel"]
+- ["PSo21UIAppearanceContainer", "updateUI"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "NSData"]
+- !private ["PSo17UICoordinateSpace", "NSDate"]
+- !private ["PSo17UICoordinateSpace", "NSDateFormatter"]
+- !private ["PSo17UICoordinateSpace", "NSDateFormatterStyle"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- !private ["PSo17UICoordinateSpace", "attributedText"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "tweet"]
+- ["PSo17UICoordinateSpace", "tweetCreatedLabel"]
+- ["PSo17UICoordinateSpace", "tweetProfileImageView"]
+- ["PSo17UICoordinateSpace", "tweetScreenNameLabel"]
+- ["PSo17UICoordinateSpace", "tweetTextLabel"]
+- ["PSo17UICoordinateSpace", "updateUI"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "NSData"]
+- !private ["PSo13UIDynamicItem", "NSDate"]
+- !private ["PSo13UIDynamicItem", "NSDateFormatter"]
+- !private ["PSo13UIDynamicItem", "NSDateFormatterStyle"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- !private ["PSo13UIDynamicItem", "attributedText"]
+- !private ["PSo13UIDynamicItem", "image"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "tweet"]
+- ["PSo13UIDynamicItem", "tweetCreatedLabel"]
+- ["PSo13UIDynamicItem", "tweetProfileImageView"]
+- ["PSo13UIDynamicItem", "tweetScreenNameLabel"]
+- ["PSo13UIDynamicItem", "tweetTextLabel"]
+- ["PSo13UIDynamicItem", "updateUI"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "NSData"]
+- !private ["PSo18UIFocusEnvironment", "NSDate"]
+- !private ["PSo18UIFocusEnvironment", "NSDateFormatter"]
+- !private ["PSo18UIFocusEnvironment", "NSDateFormatterStyle"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "attributedText"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "tweet"]
+- ["PSo18UIFocusEnvironment", "tweetCreatedLabel"]
+- ["PSo18UIFocusEnvironment", "tweetProfileImageView"]
+- ["PSo18UIFocusEnvironment", "tweetScreenNameLabel"]
+- ["PSo18UIFocusEnvironment", "tweetTextLabel"]
+- ["PSo18UIFocusEnvironment", "updateUI"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSData"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSDate"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSDateFormatter"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSDateFormatterStyle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIImage"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "tweet"]
+- ["PSo27UIGestureRecognizerDelegate", "tweetCreatedLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "tweetProfileImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "tweetScreenNameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "tweetTextLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "updateUI"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo7UILabel", "attributedText"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "NSData"]
+- !private ["CSo11UIResponder", "NSDate"]
+- !private ["CSo11UIResponder", "NSDateFormatter"]
+- !private ["CSo11UIResponder", "NSDateFormatterStyle"]
+- ["CSo11UIResponder", "Tweet"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "attributedText"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "tweet"]
+- ["CSo11UIResponder", "tweetCreatedLabel"]
+- ["CSo11UIResponder", "tweetProfileImageView"]
+- ["CSo11UIResponder", "tweetScreenNameLabel"]
+- ["CSo11UIResponder", "tweetTextLabel"]
+- ["CSo11UIResponder", "updateUI"]
+- !private ["CSo15UITableViewCell", "NSData"]
+- !private ["CSo15UITableViewCell", "NSDate"]
+- !private ["CSo15UITableViewCell", "NSDateFormatter"]
+- !private ["CSo15UITableViewCell", "NSDateFormatterStyle"]
+- ["CSo15UITableViewCell", "Tweet"]
+- !private ["CSo15UITableViewCell", "UIImage"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "tweet"]
+- ["CSo15UITableViewCell", "tweetCreatedLabel"]
+- ["CSo15UITableViewCell", "tweetProfileImageView"]
+- ["CSo15UITableViewCell", "tweetScreenNameLabel"]
+- ["CSo15UITableViewCell", "tweetTextLabel"]
+- ["CSo15UITableViewCell", "updateUI"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "NSData"]
+- !private ["PSo18UITraitEnvironment", "NSDate"]
+- !private ["PSo18UITraitEnvironment", "NSDateFormatter"]
+- !private ["PSo18UITraitEnvironment", "NSDateFormatterStyle"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "attributedText"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "tweet"]
+- ["PSo18UITraitEnvironment", "tweetCreatedLabel"]
+- ["PSo18UITraitEnvironment", "tweetProfileImageView"]
+- ["PSo18UITraitEnvironment", "tweetScreenNameLabel"]
+- ["PSo18UITraitEnvironment", "tweetTextLabel"]
+- ["PSo18UITraitEnvironment", "updateUI"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "NSData"]
+- !private ["CSo6UIView", "NSDate"]
+- !private ["CSo6UIView", "NSDateFormatter"]
+- !private ["CSo6UIView", "NSDateFormatterStyle"]
+- ["CSo6UIView", "Tweet"]
+- !private ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "attributedText"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "tweet"]
+- ["CSo6UIView", "tweetCreatedLabel"]
+- ["CSo6UIView", "tweetProfileImageView"]
+- ["CSo6UIView", "tweetScreenNameLabel"]
+- ["CSo6UIView", "tweetTextLabel"]
+- ["CSo6UIView", "updateUI"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["V8Smashtag4User", "profileImageURL"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "NSData"]
+- !private ["Ps12_Reflectable", "NSDate"]
+- !private ["Ps12_Reflectable", "NSDateFormatter"]
+- !private ["Ps12_Reflectable", "NSDateFormatterStyle"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "UIImage"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "attributedText"]
+- !private ["Ps12_Reflectable", "image"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps12_Reflectable", "timeIntervalSinceDate"]
+- ["Ps12_Reflectable", "tweet"]
+- ["Ps12_Reflectable", "tweetCreatedLabel"]
+- ["Ps12_Reflectable", "tweetProfileImageView"]
+- ["Ps12_Reflectable", "tweetScreenNameLabel"]
+- ["Ps12_Reflectable", "tweetTextLabel"]
+- ["Ps12_Reflectable", "updateUI"]
+- ["Ps12_Reflectable", ""]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Vs7Float80"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "CSo6NSDate"
+- !private "CSo15NSDateFormatter"
+- !private "OSC20NSDateFormatterStyle"
+- !private "CSo11NSFormatter"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "C8Smashtag5Tweet"
+- "C8Smashtag18TweetTableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "V8Smashtag4User"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "fe7501b1e2e2c53b05bb79c2c9079796"

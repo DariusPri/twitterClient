@@ -1,0 +1,77 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C8Smashtag11TwitterUser", ""]
+- ["C8Smashtag11TwitterUser", "name"]
+- ["C8Smashtag11TwitterUser", "screenName"]
+- ["C8Smashtag11TwitterUser", "tweets"]
+provides-dynamic-lookup:
+- "tweets"
+- "screenName"
+- "name"
+depends-top-level:
+- "NSSet"
+- "TwitterUser"
+- "String"
+depends-member:
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "screenName"]
+- ["Ps9AnyObject", "tweets"]
+- ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "screenName"]
+- ["Ps11CVarArgType", "tweets"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "screenName"]
+- ["Ps28CustomDebugStringConvertible", "tweets"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "screenName"]
+- ["Ps23CustomStringConvertible", "tweets"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "screenName"]
+- ["Ps9Equatable", "tweets"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "screenName"]
+- ["Ps8Hashable", "tweets"]
+- ["CSo15NSManagedObject", "NSSet"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", "screenName"]
+- ["CSo15NSManagedObject", "tweets"]
+- ["CSo8NSObject", "NSSet"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "screenName"]
+- ["CSo8NSObject", "tweets"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "screenName"]
+- ["PSo16NSObjectProtocol", "tweets"]
+- ["C8Smashtag11TwitterUser", "NSSet"]
+- ["C8Smashtag11TwitterUser", "String"]
+- ["C8Smashtag11TwitterUser", "name"]
+- ["C8Smashtag11TwitterUser", "screenName"]
+- ["C8Smashtag11TwitterUser", "tweets"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C8Smashtag11TwitterUser"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "ad01049ec9d370e681387b4b85356d68"
